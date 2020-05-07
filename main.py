@@ -171,7 +171,7 @@ def process_command(bot, update):
             ).lower().split()
     if command[0] == 'start':
         bot.send_message(chat_id=update.message.chat_id,
-                         text="Hey!! there I'm Zeo Two, I'm help to contact with my master.\nAll your messages sent to me will be forwarded to my master.\n/togglenotification can toggle message sending notification status, off by default.\n/help list commands.\n\nJoin our support chat @allukatm\nNOTE: Don't try to PM me you will be block by bot.")
+                         text="Yo, wsup")
         return
     elif command[0] == 'help':
         bot.send_message(chat_id=update.message.chat_id,
