@@ -172,7 +172,7 @@ def process_command(bot, update):
     if command[0] == 'start':
         bot.send_message(chat_id=update.message.chat_id,
                          text="""Yo, wsup?. 
- Im tanny personal pm bot assistant.
+ Im toxic personal pm bot assistant.
 /togglenotification to the bot to enable/disable the message sending notification.
 /help for for cmd.""")
         return
